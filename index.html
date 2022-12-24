@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Feliz cumpleaños!</title>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main-content">
+        <div>
+            Sofi, Dobby te desea feliz cumpleaños y tu amigo Jose también <br>
+            Espero que disfrutes de esta historia que Dobby te va a contar<br>
+            <b><i>Te recomiendo usar cascos o al menos tener la música activada</i></b>
+            <div style="display: flex; align-items: center;justify-content: center; flex-direction: column;padding-top: 1rem;">
+                <p>Pulsa en comenzar cuando estés lista</p>
+                <div id="start" onclick="start()"><span >Comenzar</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- fireflies -->
+    <ul id="fireflies" class="fireflies hidden">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div id="lights" class="hidden">
+        <div class="light light-right"></div>	
+        <div class="light light-left"></div>
+        <div class="light light-bot-right"></div>	
+        <div class="light light-bot-left"></div>
+    </div>
+    <div id="animation-button" class="animation hidden" onclick="disableAnimation()"></div>
+	<div id="mute-button" class="unmute hidden" onclick="muteMusic()"></div>
+</body>
+
+</html>
