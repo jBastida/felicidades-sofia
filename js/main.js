@@ -89,9 +89,9 @@ const loadPage1 = () => {
     }
     const content = '<div style="font-size: 22px">' +
         '<h1>2021 Encuentro</h1>' +
-        'Gracias a Óscar invitan a Jose al cumpleaños de Mar, es ahí donde conoce por primera vez a nuestra ex-rubia favorita ¡Sofi!<br>' +
-        'Ella llega tarde por el curro, pero al llegar, sin conocer de nada a Jose, comenta que le suena su cara.<br>' +
-        'Es ahí cuando Jose nota por lo social que es nuestra protagonista Sofi que ella podría ser muy buena amistad' +
+        'Gracias a Óscar invitan a Jose al cumpleaños de Mar,<br> es ahí donde conoce por primera vez a nuestra ex-rubia favorita ¡Sofi!<br>' +
+        'Ella llega tarde por el curro, pero sin conocer de nada a Jose,<br> comenta que le suena su cara.<br>' +
+        'Es ahí cuando Jose nota que ella podría ser muy buena amistad.' +
         '</div>'
     getMainContent().innerHTML = content;
     getMainContent().innerHTML += addPageControlButton(2, null);
@@ -100,7 +100,8 @@ const loadPage1 = () => {
 const loadPage2 = () => {
     const content = '<div>' +
         '<h1>2021 Halloween</h1>' +
-        'Pasan los meses y después de un par de quedadas deciden hacer una fiesta de halloween<br>' +
+        'Pasan los meses y después de un par de quedadas<br>' +
+        'deciden hacer una fiesta de halloween...<br>' +
         '<div class="center-content">' +
         '<img src="./media/images/sofia/halloween1.jpg"/>' +
         '<img style="padding-left: 1rem;" src="./media/images/sofia/halloween2.jpeg"/>' +
@@ -113,7 +114,8 @@ const loadPage2 = () => {
 const loadPage3 = () => {
     const content = '<div>' +
         '<h1>2021 Feria</h1>' +
-        '¡Winter is coming! Así que es época de feria y allí que fueron<br>' +
+        '¡Winter is coming!<br>' +
+        'Así que es época de feria y allí que fueron...<br>' +
         '<div class="center-content">' +
         '<img src="./media/images/sofia/feria1.jpg"/>' +
         '<img style="padding-left: 1rem;" src="./media/images/sofia/feria2.jpg"/>' +
@@ -127,7 +129,8 @@ const loadPage4 = () => {
     const content = '<div>' +
         '<h1>2021 Tú cumpleaños (¿¡Otra vez!?)</h1>' +
         'Un año ha pasado ya desde aquel día, pero aquí siguen ambos<br>' +
-        'Esperemos que este año lo pases mejor que el anterior, <br> pero no tan bien como el siguiente! <br>' +
+        'Esperemos que este año lo pases mejor que el anterior, <br>' +
+        '¡pero no tan bien como el siguiente! <br>' +
         '<div class="center-content">' +
         '<img style="transform: rotate(-90deg)" src="./media/images/sofia/cumple sofi.jpg"/>' +
         '<img style="padding-left: 0.5rem;" src="./media/images/sofia/cumple sofi2.jpg"/>' +
@@ -140,8 +143,8 @@ const loadPage4 = () => {
 const loadPage5 = () => {
     const content = '<div>' +
         '<h1>2021 Nochevieja</h1>' +
-        'Ya hay muy buen rollo entre ellos y deciden invitarle a nochevieja<br>' +
-        'Aun comiendo sandwiches por nochevieja fueron días muy divertidos <br>' +
+        'Ya hay muy buen rollo entre ellos y deciden invitarle a nochevieja.<br>' +
+        'Aun comiendo sandwiches por nochevieja fueron días muy divertidos.<br>' +
         '<div class="center-content">' +
         '<img src="./media/images/sofia/nochevieja.jpg"/>' +
         '<img style="padding-left: 0.5rem;" src="./media/images/sofia/nochevieja2.jpg"/>' +
@@ -168,7 +171,8 @@ const loadPage7 = () => {
     const content = '<div>' +
         '<h1>2022 Cumple David</h1>' +
         '¿Y en el cumple del amante de scape rooms?<br>' +
-        'Pues se decidió hacer un hall scape en el que acabó perdiendo el equipo del cumpleañero <br>' +
+        '¡Pues se decidió hacer un hall scape!<br>' +
+        'Aunque el equipo con más expertos es el acabó perdiendo <br>' +
         '<div class="center-content">' +
         '<img src="./media/images/sofia/cumple david.jpg"/>' +
         '</div>'
@@ -188,7 +192,7 @@ const loadPage8 = () => {
     const content = '<div>' +
         '<h1>2022 Cumple Choco</h1>' +
         '¿Y porqué no hacer algo distinto a lo que el cumpleañero normalmente hace?<br>' +
-        'Pues aquí los tienes después de tirar con el arco<br>' +
+        'Pues aquí los tienes después de tirar con el arco...<br>' +
         '<div class="center-content">' +
         '<img src="./media/images/sofia/cumple choco.jpg"/>' +
         '</div>'
